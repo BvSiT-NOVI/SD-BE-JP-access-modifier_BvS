@@ -7,7 +7,8 @@ public class Person {
         this.name = name;
     }
 
-    private String getName() {
+    //BvS Option 1: maak getName public
+    public String getName() {
         return name;
     }
 
