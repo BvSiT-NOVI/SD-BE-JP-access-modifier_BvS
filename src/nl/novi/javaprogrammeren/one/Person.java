@@ -7,8 +7,8 @@ public class Person {
         this.name = name;
     }
 
-    //BvS Option 1: maak getName public
-    public String getName() {
+    //BvS Option 2: maak getName protected. Daardoor beschikbaar in package (en evt. in subclass, hier n.v.t.)
+    protected String getName() {
         return name;
     }
 
