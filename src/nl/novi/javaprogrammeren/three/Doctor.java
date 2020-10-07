@@ -8,7 +8,7 @@ public class Doctor extends Human {
     }
 
     public String getSofiNumber(){
-        return super.getSofiNumber();//BvS: Als je super weg laat: error, blijkbaar in oneindige lus oid
+        return super.getSofiNumber();//BvS: Als je super weg laat: error want recursive call
     }
 
 }
